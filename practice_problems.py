@@ -65,7 +65,8 @@ the missing one
 3. Time Complexity
 The run time for this function is O(n) because it's looping through all the elements and checking to see whether
 the following element is one higher. The sort function take O(log(n)) time but since the for loop take O(n) which is longer,
-we say this function runs O(n) time.
+we say this function runs O(n) time. All other lines of code run at O(1) time, which can be ignored in this case becuase
+there are  parts of the code that run at a longer time.
 """
 
 n_input = [9,6,4,2,3,5,7,0,1]
