@@ -6,11 +6,11 @@ input: "abc-d-ef-dH"
 output: "Hdf-e-dc-ba"
 
 2. Pseudocode
-Have left and right index, and set them at either ends of the string.
+Have left and right index, and set left to equal 0 and right to equal the end of the array
 Loop through the input string and check to see if the left end element is a letter or not
 If the left end is not a letter then add to an array to hold the reverse string
 Move the left index over by one to move along the string
-Also, check to make sure the right element is a letter, if not then the right needs to  minus 1 otherwise the array
+Also, check to make sure the right element is a letter, if not then the right needs to minus 1 otherwise the array
 holding the reverse string will add the characters other than letter.
 However, if the left end is a letter then add the element of the right index, while decrementing the right index by one
 to move down the array. 
